@@ -1,0 +1,35 @@
+# See https://help.github.com/ignore-files/ for more about ignoring files.
+
+# VS ignore dirs
+.vs/
+
+# ignore chrome debug stuff
+src/.chrome
+
+# dependencies
+/src/node_modules
+
+# testing
+/coverage
+
+# production
+src/build
+
+# misc
+.DS_Store
+.env
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+
+
+# generated css files
+src/public/css/main.css
+
+#theme files
+src/public/img/logo*.svg
+src/public/img/logo*.png
+src/public/img/*
+src/public/img/favicon.ico
+src/src/Config.js
+src/src/theme.js
